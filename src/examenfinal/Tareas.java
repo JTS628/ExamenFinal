@@ -226,14 +226,10 @@ public class Tareas extends javax.swing.JFrame {
             EnvioCorreoexamenfilnalborrar g = new EnvioCorreoexamenfilnalborrar(m);
             g.enviarcorreo();
             
-            JOptionPane.showMessageDialog(null, "La tarea seleccionanda ha sido marcada como completada");
-            
         }
         }catch(Exception e){}    
-        
-                
-                
-        
+        JOptionPane.showMessageDialog(null, "La tarea seleccionanda ha sido marcada como completada");
+            
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
